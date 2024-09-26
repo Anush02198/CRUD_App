@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <head>
+        <title>
+            Chemical Factory
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        </head>
+    <body>
+        <div class="row">
+            <div class="coloumn">
+            <form class="card" onsubmit="submitData()">
+                    <div class="mb-2">
+                        <label for="chemicalName">Chemical Name</label>
+                        <input type="text" name="chemicalName" id="chemicalName">
+                    </div>
+                    <div class="mb-2">
+                        <label for="vendor">Vendor</label>
+                        <input type="text" name="vendor" id="vendor">
+                    </div>
+                    <div class="mb-2">
+                        <label>Density</label>
+                        <input type="text" name="density" id="density">
+                    </div>
+                    <div class="mb-2">
+                        <label>Viscosity</label>
+                        <input type="text" name="viscosity" id="viscosity">
+                    </div>
+                    <div class="mb-2">
+                        <label>Packaging</label>
+                        <input type="text" name="packaging" id="packaging">
+                    </div>
+                    <div class="mb-2">
+                        <label>Pack Size</label>
+                        <input type="text" name="packSize" id="packSize">
+                    </div>
+                    <div class="mb-2">
+                        <label>Unit</label>
+                        <input type="text" name="unit" id="unit">
+                    </div>
+                    <div class="mb-2">
+                        <label>Quantity</label>
+                        <input type="text" name="quantity" id="quantity">
+                    </div>
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+        </div>
+            <div class="coloumn">
+            <div class="card">
+                <table class="entries" id="ChemLabList">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Chemical Name</th>
+                            <th>Vendor</th>
+                            <th>Density</th>
+                            <th>Viscosity</th>
+                            <th>Packaging</th>
+                            <th>Pack size</th>
+                            <th>Unit</th>
+                            <th>Quantity</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+    
+                    </tbody>
+                </table>
+            </div>
+            </div>
+    </body>
+    <script src="script.js"></script>
+</html>

@@ -1,0 +1,55 @@
+.mb-2{
+    margin-bottom: 2%;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  .row {margin: 0 -5px;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  table{
+    width: 80%;
+    margin: 40px auto;
+    border: 1px solid #0000;
+}
+
+table.entries{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid #0000;
+    text-align: center;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: #0000;
+}
+
+  
